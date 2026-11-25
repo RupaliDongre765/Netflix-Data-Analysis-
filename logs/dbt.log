@@ -1,0 +1,169 @@
+[0m00:54:14.259360 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023542C967B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000235426AF920>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023541A2A450>]}
+
+
+============================== 00:54:14.259360 | eaec9aed-f8e7-44ba-8bfc-d1f1d92ab0fb ==============================
+[0m00:54:14.259360 [info ] [MainThread]: Running with dbt=1.11.11
+[0m00:54:14.259360 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'empty': 'None', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\Rajesh Dongare\\.dbt', 'indirect_selection': 'eager', 'invocation_command': 'dbt init netflix', 'use_colors': 'True', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m00:54:14.300284 [info ] [MainThread]: Creating dbt configuration folder at C:\Users\Rajesh Dongare\.dbt
+[0m00:54:14.303367 [debug] [MainThread]: Starter project path: C:\Rupali\SQL&ProjectDBT\Netflixdbt\venv\Lib\site-packages\dbt\include\starter_project
+[0m00:54:14.351145 [info ] [MainThread]: 
+Your new dbt project "netflix" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m00:54:14.351145 [info ] [MainThread]: Setting up your profile.
+[0m00:59:27.810572 [info ] [MainThread]: Profile netflix written to C:\Users\Rajesh Dongare\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m00:59:27.824130 [debug] [MainThread]: Command `dbt init` succeeded at 00:59:27.824130 after 313.75 seconds
+[0m00:59:27.824130 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023547425E80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023546D9DD00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000235477AB710>]}
+[0m00:59:27.825201 [debug] [MainThread]: Flushing usage events
+[0m00:59:29.209732 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m21:07:31.150997 [debug] [MainThread]: Got an exception trying to initialize tracking
+
+
+============================== 21:07:31.249402 | 3b217c25-f364-4711-89f9-2a0ccd0b721c ==============================
+[0m21:07:31.249402 [info ] [MainThread]: Running with dbt=1.11.11
+[0m21:07:31.251248 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'False', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\Rajesh Dongare\\.dbt', 'indirect_selection': 'eager', 'use_colors': 'True', 'invocation_command': 'dbt run', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m21:07:31.251248 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path C:\Rupali\SQL&ProjectDBT\Netflixdbt\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m21:07:31.253253 [debug] [MainThread]: Command `dbt run` failed at 21:07:31.253253 after 0.19 seconds
+[0m21:07:31.253253 [debug] [MainThread]: Flushing usage events
+[0m21:16:26.745785 [debug] [MainThread]: Got an exception trying to initialize tracking
+
+
+============================== 21:16:26.866907 | 25d7e1be-a195-49cf-8f6e-d936f09fe5bc ==============================
+[0m21:16:26.866907 [info ] [MainThread]: Running with dbt=1.11.11
+[0m21:16:26.872746 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'empty': 'False', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\Rajesh Dongare\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'indirect_selection': 'eager', 'use_colors': 'True', 'invocation_command': 'dbt run', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m21:16:26.872746 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path C:\Rupali\SQL&ProjectDBT\Netflixdbt\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m21:16:26.872746 [debug] [MainThread]: Command `dbt run` failed at 21:16:26.872746 after 0.20 seconds
+[0m21:16:26.872746 [debug] [MainThread]: Flushing usage events
+[0m21:48:53.016841 [debug] [MainThread]: Got an exception trying to initialize tracking
+
+
+============================== 21:48:53.152452 | f3a21cc5-1dfb-4588-9396-43da8799b4e6 ==============================
+[0m21:48:53.152452 [info ] [MainThread]: Running with dbt=1.11.11
+[0m21:48:53.152452 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'None', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\Rajesh Dongare\\.dbt', 'invocation_command': 'dbt init netflix', 'indirect_selection': 'eager', 'use_colors': 'True', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m21:48:53.197974 [info ] [MainThread]: A project called netflix already exists here.
+[0m21:48:53.201130 [debug] [MainThread]: Command `dbt init` succeeded at 21:48:53.200249 after 0.26 seconds
+[0m21:48:53.201130 [debug] [MainThread]: Flushing usage events
+[0m22:04:13.211637 [debug] [MainThread]: Got an exception trying to initialize tracking
+
+
+============================== 22:04:13.365550 | 310a5dfb-5a91-4609-a19a-8ebf4ef11173 ==============================
+[0m22:04:13.365550 [info ] [MainThread]: Running with dbt=1.11.11
+[0m22:04:13.366567 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'empty': 'False', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'profiles_dir': 'C:\\Users\\Rajesh Dongare\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'use_colors': 'True', 'invocation_command': 'dbt run', 'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m22:04:13.367761 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path C:\Rupali\SQL&ProjectDBT\Netflixdbt\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m22:04:13.368764 [debug] [MainThread]: Command `dbt run` failed at 22:04:13.368764 after 0.23 seconds
+[0m22:04:13.369760 [debug] [MainThread]: Flushing usage events
+[0m00:06:53.211854 [debug] [MainThread]: Got an exception trying to initialize tracking
+
+
+============================== 00:06:53.316600 | 2df965b0-bbd4-4c62-ac59-e344d1fa3bad ==============================
+[0m00:06:53.316600 [info ] [MainThread]: Running with dbt=1.11.11
+[0m00:06:53.316600 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'empty': 'False', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\Rajesh Dongare\\.dbt', 'indirect_selection': 'eager', 'invocation_command': 'dbt run', 'use_colors': 'True', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m00:06:53.316600 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path C:\Rupali\SQL&ProjectDBT\Netflixdbt\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m00:06:53.316600 [debug] [MainThread]: Command `dbt run` failed at 00:06:53.316600 after 0.17 seconds
+[0m00:06:53.316600 [debug] [MainThread]: Flushing usage events
+[0m00:13:06.914437 [debug] [MainThread]: Got an exception trying to initialize tracking
+
+
+============================== 00:13:07.011743 | 4d3567d8-e4d5-45f6-a7fb-8cd5b34641e1 ==============================
+[0m00:13:07.011743 [info ] [MainThread]: Running with dbt=1.11.11
+[0m00:13:07.011743 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'empty': 'False', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\Rajesh Dongare\\.dbt', 'invocation_command': 'dbt run', 'use_colors': 'True', 'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m00:13:07.011743 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path C:\Rupali\SQL&ProjectDBT\Netflixdbt\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m00:13:07.011743 [debug] [MainThread]: Command `dbt run` failed at 00:13:07.011743 after 0.16 seconds
+[0m00:13:07.011743 [debug] [MainThread]: Flushing usage events
+[0m00:54:42.591751 [debug] [MainThread]: Got an exception trying to initialize tracking
+
+
+============================== 00:54:42.688396 | b2da150a-be9b-459e-ab06-3c74a9c86f27 ==============================
+[0m00:54:42.688396 [info ] [MainThread]: Running with dbt=1.11.11
+[0m00:54:42.688396 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'False', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'profiles_dir': 'C:\\Users\\Rajesh Dongare\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'invocation_command': 'dbt run', 'use_colors': 'True', 'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m00:54:42.688396 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path C:\Rupali\SQL&ProjectDBT\Netflixdbt\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m00:54:42.688396 [debug] [MainThread]: Command `dbt run` failed at 00:54:42.688396 after 0.15 seconds
+[0m00:54:42.688396 [debug] [MainThread]: Flushing usage events
+[0m00:56:05.551225 [debug] [MainThread]: Got an exception trying to initialize tracking
+
+
+============================== 00:56:05.643225 | b2ac1c1e-77ce-4f2a-ab61-395060611c26 ==============================
+[0m00:56:05.643225 [info ] [MainThread]: Running with dbt=1.11.11
+[0m00:56:05.643225 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'False', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'profiles_dir': 'C:\\Users\\Rajesh Dongare\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'indirect_selection': 'eager', 'invocation_command': 'dbt run', 'use_colors': 'True', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m00:56:05.643225 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path C:\Rupali\SQL&ProjectDBT\Netflixdbt\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m00:56:05.643225 [debug] [MainThread]: Command `dbt run` failed at 00:56:05.643225 after 0.17 seconds
+[0m00:56:05.643225 [debug] [MainThread]: Flushing usage events
+[0m01:37:55.501468 [debug] [MainThread]: Got an exception trying to initialize tracking
+
+
+============================== 01:37:55.644079 | 6f52768c-c3ba-41e4-aa44-ee35874b0bef ==============================
+[0m01:37:55.644079 [info ] [MainThread]: Running with dbt=1.11.11
+[0m01:37:55.646638 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'empty': 'None', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\Rajesh Dongare\\.dbt', 'use_colors': 'True', 'indirect_selection': 'eager', 'invocation_command': 'dbt seed', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m01:37:55.646638 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path C:\Rupali\SQL&ProjectDBT\Netflixdbt\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m01:37:55.649583 [debug] [MainThread]: Command `dbt seed` failed at 01:37:55.649583 after 0.21 seconds
+[0m01:37:55.649583 [debug] [MainThread]: Flushing usage events
+[0m01:40:53.250674 [debug] [MainThread]: Got an exception trying to initialize tracking
+
+
+============================== 01:40:53.348364 | 55c8843a-b3ad-446c-b97e-41f5f24615ba ==============================
+[0m01:40:53.348364 [info ] [MainThread]: Running with dbt=1.11.11
+[0m01:40:53.348364 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'None', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\Rajesh Dongare\\.dbt', 'invocation_command': 'dbt seed --full-refresh', 'indirect_selection': 'eager', 'use_colors': 'True', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m01:40:53.348364 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path C:\Rupali\SQL&ProjectDBT\Netflixdbt\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m01:40:53.348364 [debug] [MainThread]: Command `dbt seed` failed at 01:40:53.348364 after 0.16 seconds
+[0m01:40:53.348364 [debug] [MainThread]: Flushing usage events
+[0m02:32:25.850079 [debug] [MainThread]: Got an exception trying to initialize tracking
+
+
+============================== 02:32:25.954944 | 407081c4-ae34-4b09-a4fc-2218101a08f5 ==============================
+[0m02:32:25.954944 [info ] [MainThread]: Running with dbt=1.11.11
+[0m02:32:25.954944 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'None', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'profiles_dir': 'C:\\Users\\Rajesh Dongare\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'indirect_selection': 'eager', 'use_colors': 'True', 'invocation_command': 'dbt test', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m02:32:25.956949 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path C:\Rupali\SQL&ProjectDBT\Netflixdbt\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m02:32:25.957954 [debug] [MainThread]: Command `dbt test` failed at 02:32:25.957954 after 0.19 seconds
+[0m02:32:25.957954 [debug] [MainThread]: Flushing usage events
